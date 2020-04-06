@@ -1,0 +1,9 @@
+.dropdown-menu,.dropdown-item{
+    cursor: pointer;
+}
+
+img{
+    max-width: 40px;
+    max-height: 40px;
+    border: 1 solid white;
+}

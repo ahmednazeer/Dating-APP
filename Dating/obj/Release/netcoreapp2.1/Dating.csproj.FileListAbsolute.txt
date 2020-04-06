@@ -1,0 +1,17 @@
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\appsettings.Development.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\appsettings.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\Data\UserSeedData.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\Properties\launchSettings.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\Dating.deps.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\Dating.runtimeconfig.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\Dating.runtimeconfig.dev.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\Dating.dll
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Release\netcoreapp2.1\Dating.pdb
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Release\netcoreapp2.1\Dating.csprojAssemblyReference.cache
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Release\netcoreapp2.1\Dating.RazorAssemblyInfo.cache
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Release\netcoreapp2.1\Dating.RazorAssemblyInfo.cs
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Release\netcoreapp2.1\Dating.AssemblyInfoInputs.cache
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Release\netcoreapp2.1\Dating.AssemblyInfo.cs
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Release\netcoreapp2.1\Dating.RazorTargetAssemblyInfo.cache
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Release\netcoreapp2.1\Dating.dll
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Release\netcoreapp2.1\Dating.pdb

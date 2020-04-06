@@ -1,0 +1,34 @@
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.deps.json
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.runtimeconfig.json
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.runtimeconfig.dev.json
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.dll
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.csprojAssemblyReference.cache
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.RazorAssemblyInfo.cache
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.RazorAssemblyInfo.cs
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.AssemblyInfoInputs.cache
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.AssemblyInfo.cs
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.RazorTargetAssemblyInfo.cache
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.pdb
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.dll
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.pdb
+C:\Users\Ahmed Nazzer\source\repos\Dating\Dating\bin\Debug\netcoreapp2.1\Data\UserSeedData.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\Data\UserSeedData.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.deps.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.runtimeconfig.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.runtimeconfig.dev.json
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.dll
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\bin\Debug\netcoreapp2.1\Dating.pdb
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.csprojAssemblyReference.cache
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.RazorAssemblyInfo.cache
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.RazorAssemblyInfo.cs
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.AssemblyInfoInputs.cache
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.AssemblyInfo.cs
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.RazorTargetAssemblyInfo.cache
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.dll
+E:\Study\Courses\New Road\Build an app with ASPNET Core and Angular from scratch\Dating\Dating\obj\Debug\netcoreapp2.1\Dating.pdb

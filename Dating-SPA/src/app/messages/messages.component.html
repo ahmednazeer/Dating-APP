@@ -1,0 +1,62 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="btn-group">
+      <button class="btn btn-primary" [(ngModel)]="messageType" btnRadio="Unread" (click)="loadMessages()">
+        <i class="fa fa-envelope"></i> Unread
+      </button>
+      <button class="btn btn-primary" [(ngModel)]="messageType" btnRadio="Inbox" (click)="loadMessages()">
+        <i class="fa fa-envelope-open"></i> Inbox
+      </button>
+      <button class="btn btn-primary" [(ngModel)]="messageType" btnRadio="Outbox" (click)="loadMessages()">
+        <i class="fa fa-paper-plane"></i> Outbox
+      </button>
+    </div>
+  </div>
+
+  <div class="row mt-5" *ngIf="messages.length == 0">
+    <h3>No messages</h3>
+  </div>
+
+  <div class="row" *ngIf="messages.length > 0">
+    <table class="table table-hover mt-5" style="cursor: pointer">
+      <tr>
+        <th style="width: 40%">Message</th>
+        <th style="width: 20%">From / To</th>
+        <th style="width: 20%">Sent / Received</th>
+        <th style="width: 20%"></th>
+      </tr>
+      <tr *ngFor="let message of messages;let messageIndex= index" [routerLink]="['/members', 
+        messageType == 'Outbox' ? message.receiverId : message.senderId]"
+       
+        >
+        <td>{{message.content}}</td>
+        <td>
+          <div *ngIf="messageType != 'Outbox'">
+                <img src={{message?.senderPhotoUrl}} class="img-circle rounded-circle">
+                <strong>{{message.senderKnownAs}}</strong>
+          </div>
+          <div *ngIf="messageType == 'Outbox'">
+                <img src={{message?.receiverPhotoUrl}} class="img-circle rounded-circle mr-5">
+                <strong >{{message.ReceiverKnownAs}}</strong>
+          </div>
+        </td>
+        <td>{{message.sendAt | timeago:live}}</td>
+        <td>
+          <button class="btn btn-danger" (click)="$event.stopPropagation()" (click)="deleteMessage(message.id,messageIndex)">Delete</button>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+</div>
+
+<div class="d-flex justify-content-center">
+    <pagination [boundaryLinks]="true" 
+                [totalItems]="pagination.totalItems"
+                [itemsPerPage]="pagination.pageSize"
+                [(ngModel)]="pagination.pageNumber"
+                (pageChanged)="pageChanged($event)"
+              previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;">
+  </pagination>
+  </div>

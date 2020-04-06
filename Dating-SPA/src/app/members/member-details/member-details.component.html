@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="row mt-2">
+    <div class="col-sm-4">
+      <h2 class="card-title">{{user?.knownAs}} 's Profile</h2>
+      <div class="card  d-flex">
+        <img
+          class="card-img-top img-sumbnail p-1"
+          src="{{ user?.photoUrl ||'../../assets/user.png'}}"
+          alt="{{ user?.knownAs }}"
+        />
+        <div class="card-body">
+          
+          <strong>Location :</strong>
+          <p class="card-text">{{ user?.city }} , {{ user?.country }} </p>
+          <strong>Age :</strong>
+          <p class="card-text">{{ user?.age }} </p>
+          <strong>Last Seen :</strong>
+          <p class="card-text">{{ user?.lastActive|timeago:live}} </p>
+          <strong>Member Scince :</strong>
+          <p class="card-text">{{ user?.created  |date:'mediumDate'}} </p>
+          <div class="card-footer">
+            <div class="btn-group d-flex">
+              <button class="btn btn-info w-100">Like</button>
+            <button class="btn btn-success w-100" 
+            
+             routerLinkActive="router-link-active" (click)="selectTab(3)">Message</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="tab-panel">
+        <tabset class="member-tabset" #tabset>
+          <tab heading="About {{user?.knownAs}}" (selectTab)="selectTab(0)">
+            <h4>Description</h4>
+            <p>{{user?.introduction}}</p>
+            <h4>Looking For</h4>
+            <p>{{user?.lookingFor}}</p>
+          </tab>
+          <tab heading="Interests" (selectTab)="selectTab(1)">
+            <h4>Interests</h4>
+            <p>{{user?.interests}}</p>
+          </tab>
+          <tab heading="Photos" (selectTab)="selectTab(2)">
+            <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>
+          </tab>
+          <tab heading="Messages" (selectTab)="selectTab(3)">
+            <app-member-messages [receiverId]="user.id"></app-member-messages>
+          </tab>
+        </tabset>
+      </div>
+    </div>
+  </div>
+</div>

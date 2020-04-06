@@ -1,0 +1,22 @@
+img{
+    max-width: 50px;
+}
+.card{
+    border: none;
+}
+.chat{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chat li{
+    border-bottom: 1px dotted rgb(211, 210, 210);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.card-body{
+    overflow-y: scroll;
+    height: 400px;
+}
